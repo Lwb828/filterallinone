@@ -1,0 +1,6 @@
+@@||github.com^
+@@||www.bing.com^
+@@||api.github.com^
+@@||edge.microsoft.com^
+@@||api.individual.githubcopilot.com^
+@@||firebase-settings.crashlytics.com^
