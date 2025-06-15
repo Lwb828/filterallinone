@@ -30,7 +30,7 @@ OFFICIAL_RULES = [
 THIRD_PARTY_RULES = [
     "http://rssv.cn/adguard/api.php?type=black",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt", # 或者用代理：https://gh-proxy.com/raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
-    "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt",
+    #"https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt",
     "https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
@@ -43,7 +43,7 @@ THIRD_PARTY_RULES = [
 ]
 
 WHITE_LIST_RULES = [
-    "https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt",
+    #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt",
     "https://raw.githubusercontent.com/user001235/112/main/white.txt",
     "https://file-git.trli.club/file-hosts/allow/Domains",
     "https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
@@ -104,10 +104,10 @@ def download_whitelist_rules(urls, filename):
             rules = response.text.splitlines()
 
             for rule in rules:
-                if rule.startswith('!'):
+                if rule.startswith('!') or rule.startswith('#'):
                   continue
 
-                if len(rule.strip()):
+                if len(rule.strip()) <= 0:
                   continue
 
                 if not rule.startswith('@'):
@@ -123,7 +123,7 @@ def download_whitelist_rules(urls, filename):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download AdGuard filter rules.")
-    parser.add_argument('--type', choices=['official', 'third_party'], required=True, help='Type of rules to download (official or third_party)')
+    parser.add_argument('--type', choices=['official', 'third_party', 'whitelist'], required=True, help='Type of rules to download (official or third_party)')
     args = parser.parse_args()
 
     if args.type == 'official':
