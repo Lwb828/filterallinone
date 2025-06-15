@@ -2,7 +2,7 @@ import os
 import datetime
 import pytz
 
-def  merge_whitelist()(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
+def  merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
 
     try:
         with open(whitelist_file, 'r', encoding='utf-8') as f:
