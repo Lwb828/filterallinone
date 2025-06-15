@@ -30,6 +30,10 @@ jobs:
           pip install requests
           pip install pytz
 
+      - name: Remove Rules
+        run: |
+          rm ziyongdns ziyongdnsZ ziyongdnsZ1 ziyongruler ziyongrulerZ ziyongrulerZ1
+
       - name: Download Official Rules
         run: |
           python .github/scripts/download_rules.py --type official
@@ -59,7 +63,7 @@ jobs:
 
       - name: Optimize General rules
         run: |
-          sort -u ziyongrulerZ1 > ziyongruler
+          sort -u ziyongrulerZ > ziyongruler
 
       - name: Generate README
         run: |
