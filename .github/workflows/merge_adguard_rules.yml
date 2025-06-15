@@ -38,6 +38,10 @@ jobs:
         run: |
           python .github/scripts/download_rules.py --type third_party
 
+      - name: Download Third-Party Whitelist
+        run: |
+          python .github/scripts/download_rules.py --type whitelist
+
       - name: Merge And Deduplicate
         run: |
           # 合并自定义第三方规则
@@ -55,6 +59,10 @@ jobs:
       - name: Install HostlistCompiler (npm)
         run: npm install -g @adguard/hostlist-compiler
 
+      - name: Merge whitelist.txt
+        run: |
+          python .github/scripts/merge_whitelist.py     
+
       - name: Optimize DNS rules
         run: |
           hostlist-compiler -i ziyongdnsZ1 -o ziyongdns
@@ -62,10 +70,6 @@ jobs:
       - name: Optimize General rules
         run: |
           cp ziyongrulerZ1 ziyongruler
-
-      - name: Merge whitelist.txt
-        run: |
-          python .github/scripts/merge_whitelist.py    
 
       - name: Generate README
         run: |

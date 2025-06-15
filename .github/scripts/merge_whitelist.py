@@ -2,7 +2,7 @@ import os
 import datetime
 import pytz
 
-def  merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
+def merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
 
     try:
         with open(whitelist_file, 'r', encoding='utf-8') as f:
@@ -26,21 +26,25 @@ def  merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
 
     updated_ziyongdns = ziyongdns_rules[:] # 创建一个副本，避免直接修改原列表
 
-    for white_rule in whitelist:
-        if "$" in white_rule:
-            if white_rule not in updated_ziyongdns:  # 避免重复添加
-                 updated_ziyongdns.append(white_rule)
+    # for white_rule in whitelist:
+    #     if "$" in white_rule:
+    #         if white_rule not in updated_ziyongdns:  # 避免重复添加
+    #              updated_ziyongdns.append(white_rule)
             
-        else:
-            domain = white_rule.replace('@', '').replace('|', '').replace('*', '').replace('\^', '')
-            if domain:
-                hasDel = False
-                for i in reversed(range(len(updated_ziyongdns))): #倒序遍历，避免删除元素后索引错位
-                    if domain in updated_ziyongdns[i] and updated_ziyongdns[i].startswith('||'):
-                        hasDel = True
-                        del updated_ziyongdns[i]       
-                if (not hasDel):
-                    updated_ziyongdns.append(white_rule)         
+    #     else:
+    #         domain = white_rule.replace('@', '').replace('|', '').replace('*', '').replace('\^', '')
+    #         if domain:
+    #             hasDel = False
+    #             for i in reversed(range(len(updated_ziyongdns))): #倒序遍历，避免删除元素后索引错位
+    #                 if domain in updated_ziyongdns[i] and updated_ziyongdns[i].startswith('||'):
+    #                     hasDel = True
+    #                     del updated_ziyongdns[i]       
+    #             if (not hasDel):
+    #                 updated_ziyongdns.append(white_rule)         
+
+    # 内容太多，不能依次便利直接加到文件末尾再用HostlistCompiler优化
+    for white_rule in whitelist:
+        updated_ziyongdns.append(white_rule)
 
     try:
         with open(dns_file, 'w', encoding='utf-8') as f:
@@ -52,4 +56,5 @@ def  merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
         print(f"写入 ziyongdns 文件时发生错误: {e}")
 
 if __name__ == "__main__":
-    merge_whitelist()
+    merge_whitelist(dns_file="ziyongdnsZ1", whitelist_file="whitelist.txt")
+    merge_whitelist(dns_file="ziyongdnsZ1", whitelist_file="third_whitelist.txt")
