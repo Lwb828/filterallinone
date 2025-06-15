@@ -2,6 +2,10 @@ import requests
 import argparse
 import re
 
+headers = {
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36'
+    }
+
 OFFICIAL_RULES = [
     "https://filters.adtidy.org/android/filters/2_optimized.txt",
     "https://filters.adtidy.org/android/filters/11_optimized.txt",
@@ -34,13 +38,17 @@ THIRD_PARTY_RULES = [
     "https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
-    "https://anti-ad.net/adguard.txt",
-    "https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt",
+    #"https://anti-ad.net/adguard.txt",
+    #"https://raw.githubusercontent.com/loveqqzj/AdGuard/master/Mobile.txt",
     #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt",
     #"https://raw.githubusercontent.com/user001235/112/main/white.txt",
     #"https://file-git.trli.club/file-hosts/allow/Domains",
     #"https://raw.githubusercontent.com/mphin/AdGuardHomeRules/main/Allowlist.txt",
 ]
+
+# THIRD_PARTY_RULES = [
+#     "http://rssv.cn/adguard/api.php?type=black"
+# ]
 
 WHITE_LIST_RULES = [
     #"https://raw.githubusercontent.com/qq5460168/dangchu/main/T%E7%99%BD%E5%90%8D%E5%8D%95.txt",
@@ -70,11 +78,18 @@ def download_rules(urls, dns_filename, general_filename):
 
     for url in urls:
         try:
-            response = requests.get(url, timeout=10)
+            response = requests.get(url, headers=headers, timeout=10)
             response.raise_for_status()
             rules = response.text.splitlines()
+            # print(rules)
 
             for rule in rules:
+                if rule.startswith('!') or rule.startswith('#'):
+                  continue
+
+                if len(rule.strip()) <= 0:
+                  continue
+                
                 rule = rule.replace('$important', '')
                 if is_dns_rule(rule):
                     dns_rules.append(rule)

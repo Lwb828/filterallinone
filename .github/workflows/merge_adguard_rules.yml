@@ -42,22 +42,12 @@ jobs:
         run: |
           python .github/scripts/download_rules.py --type whitelist
 
-      - name: Merge And Deduplicate
-        run: |
-          # 合并自定义第三方规则
-          cat ziyongdnsZ > ziyongdnsZ_temp
-          cat ziyongrulerZ > ziyongrulerZ_temp
-          #AdguardDNS_temp
-          cat AdguardDNSRuler >> ziyongdnsZ_temp
-          cat AdguardRuler >> ziyongrulerZ_temp
-
-          # 清理重复并保存
-          sort -u ziyongdnsZ_temp > ziyongdnsZ1
-          sort -u ziyongrulerZ_temp > ziyongrulerZ1
-          rm ziyongdnsZ_temp ziyongrulerZ_temp
-
       - name: Install HostlistCompiler (npm)
         run: npm install -g @adguard/hostlist-compiler
+
+      - name: 
+        run: Source ziyongdnsZ Exclusion AdguardDNSRuler
+          hostlist-compiler -c configuration.json -o ziyongdnsZ1
 
       - name: Merge whitelist.txt
         run: |
@@ -69,7 +59,7 @@ jobs:
 
       - name: Optimize General rules
         run: |
-          cp ziyongrulerZ1 ziyongruler
+          sort -u ziyongrulerZ1 > ziyongruler
 
       - name: Generate README
         run: |

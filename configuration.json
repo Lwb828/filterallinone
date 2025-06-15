@@ -1,0 +1,18 @@
+{
+  "name": "List name",
+  "description": "List description",
+  "homepage": "https://example.org/",
+  "license": "GPLv3",
+  "version": "1.0.0.0",
+  "sources": [
+    {
+      "name": "Local rules",
+      "source": "ziyongdnsZ",
+      "type": "adblock",
+      "transformations": ["Deduplicate", "RemoveEmptyLines", "RemoveComments", "Compress"],
+      "exclusions": ["excluded rule 1"],
+      "exclusions_sources": ["AdguardDNSRuler"]
+
+    }
+  ]
+}
