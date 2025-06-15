@@ -204,13 +204,13 @@
 ! @@||globalapi.ad.xiaomi.com^$document
 ! @@||uc.ucweb.com
 ! APP分享
-! Checksum: lelEexbvwZ3yC1z3T00sAQ
+! Checksum: WyzWpzI4lm9g6ex7Cvtg5g
 ! DNS服务器
 ! Description: Adg-kall collected on the network and I have written some rules
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
 ! Description: Sweeper - Aggressive cleans the Internet and protects your privacy! Blocks Ads, Affiliate, Tracking, Metrics, Telemetry, Phishing, Malware, Scam, Fake, Crytojacking and other "Crap".
 ! Description: 移动广告过滤补充规则。
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1749961046-3600.patch
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1749975131-3600.patch
 ! Expires: 1 day
 ! Expires: 5 days (update frequency)
 ! Flyme 游戏下载(酷安@何言与君识)
@@ -254,8 +254,8 @@
 ! QQ音乐免费时长广告奖励
 ! QQ音乐广告奖励检测
 ! Syntax: AdBlock
-! TimeUpdated: 2025-06-15T04:13:35+00:00
 ! TimeUpdated: 2025-06-15T05:30
+! TimeUpdated: 2025-06-15T08:08:02+00:00
 ! Title: AdGuard Base filter (Optimized)
 ! Title: AdGuardHome白名单
 ! Title: HaGeZi's Pro++ DNS Blocklist
@@ -267,7 +267,7 @@
 ! UC文章
 ! UC浏览器
 ! UC浏览器网盘
-! Version: 2.3.89.51
+! Version: 2.3.89.55
 ! Version: 202407191352
 ! Version: 2025.06.07
 ! Version: 2025.06.15.0530
@@ -3640,6 +3640,7 @@
 ##.f-ad
 ##.f-item-ad
 ##.f-sign-cont[data-dysign-adid]
+##.fah-btn.nopop
 ##.fah-btn__container
 ##.featured-ad
 ##.featured-ads
@@ -8642,7 +8643,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /11431a7ff0f5.swf$domain=tieba.baidu.com
 /120-600-
 /120-600.
-/120_600.
 /120_600/*
 /120_600_
 /120ad.
@@ -8662,7 +8662,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /139.45.197.24\d/$network
 /160-600-
 /160-600.
-/160_600.
 /160_600_
 /160_ad_
 /160x400-
