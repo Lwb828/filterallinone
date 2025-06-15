@@ -107,7 +107,7 @@ def download_whitelist_rules(urls, filename):
                 if rule.startswith('!'):
                   continue
 
-                if len(rule.strip():
+                if len(rule.strip()):
                   continue
 
                 if not rule.startswith('@'):
