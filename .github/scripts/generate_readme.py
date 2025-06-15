@@ -2,7 +2,7 @@ import os
 import datetime
 import pytz
 
-def generate_readme(dns_file="ziyongdnsZ", ruler_file="ziyongrulerZ", readme_file="README.md"):
+def generate_readme(dns_file="ziyongdns", ruler_file="ziyongruler", readme_file="README.md"):
     """
     生成 README.md 文件，包含指定 DNS 和 Ruler 文件的行数。
 

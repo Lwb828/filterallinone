@@ -8,12 +8,3 @@
 @@||aweme.snssdk.com^
 @@||search5-search.ixigua.com^
 @@||lf6-cdn-tos.bytecdntp.com^
-0.0.0.0 q
-||hostsafe.meizu.com^
-||*bug*^
-||*.arpa^
-||vneinsd.*.xyz^
-||*.gamecenter.qq.com^
-||in.appcenter.ms^
-||file.daihuo.qq.com^
-||configsvr.ms
