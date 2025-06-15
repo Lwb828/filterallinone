@@ -56,11 +56,11 @@ jobs:
 
       - name: Optimize DNS rules
         run: |
-          hostlist-compiler -i ziyongdnsZ1 -o ziyongdnsZ
+          hostlist-compiler -i ziyongdnsZ1 -o ziyongdns
 
       - name: Optimize General rules
         run: |
-          cp ziyongrulerZ1 ziyongrulerZ
+          cp ziyongrulerZ1 ziyongruler
 
       - name: Generate README
         run: |
@@ -70,6 +70,6 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add README.md ziyongdnsZ ziyongrulerZ ziyongrulerZ1 ziyongdnsZ1
+          git add README.md ziyongdns ziyongruler ziyongdnsZ ziyongrulerZ ziyongrulerZ1 ziyongdnsZ1
           git commit -m "Updated AdGuard rules" || echo "No changes to commit"
           git push origin HEAD:main
