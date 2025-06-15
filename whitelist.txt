@@ -8,7 +8,6 @@
 @@||aweme.snssdk.com^
 @@||search5-search.ixigua.com^
 @@||lf6-cdn-tos.bytecdntp.com^
-
 @@||github.com^
 @@||www.bing.com^
 @@||api.github.com^
