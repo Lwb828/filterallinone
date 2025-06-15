@@ -39,7 +39,7 @@ def  merge_whitelist(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
                     if domain in updated_ziyongdns[i] and updated_ziyongdns[i].startswith('||'):
                         hasDel = True
                         del updated_ziyongdns[i]       
-                if (!hasDel):
+                if (not hasDel):
                     updated_ziyongdns.append(white_rule)         
 
     try:
