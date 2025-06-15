@@ -45,8 +45,8 @@ jobs:
       - name: Install HostlistCompiler (npm)
         run: npm install -g @adguard/hostlist-compiler
 
-      - name: 
-        run: Source ziyongdnsZ Exclusion AdguardDNSRuler
+      - name: Source ziyongdnsZ Exclusion AdguardDNSRuler
+        run: |
           hostlist-compiler -c configuration.json -o ziyongdnsZ1
 
       - name: Merge whitelist.txt
