@@ -30,7 +30,7 @@ OFFICIAL_RULES = [
 THIRD_PARTY_RULES = [
     "http://rssv.cn/adguard/api.php?type=black",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt", # 或者用代理：https://gh-proxy.com/raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt
-    "https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt",
+    #"https://raw.githubusercontent.com/lingeringsound/10007_auto/master/adb.txt",
     "https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
