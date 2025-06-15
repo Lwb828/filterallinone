@@ -34,10 +34,13 @@ def  merge_whitelist()(dns_file="ziyongdns", whitelist_file="whitelist.txt"):
         else:
             domain = white_rule.replace('@', '').replace('|', '').replace('*', '').replace('\^', '')
             if domain:
-               
+                hasDel = False
                 for i in reversed(range(len(updated_ziyongdns))): #倒序遍历，避免删除元素后索引错位
-                    if domain in updated_ziyongdns[i]:
+                    if domain in updated_ziyongdns[i] and updated_ziyongdns[i].startswith('||'):
+                        hasDel = True
                         del updated_ziyongdns[i]       
+                if (!hasDel):
+                    updated_ziyongdns.append(white_rule)         
 
     try:
         with open(dns_file, 'w', encoding='utf-8') as f:
