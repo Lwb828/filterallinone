@@ -19043,6 +19043,7 @@ chexun.com##.ad1100
 chexun.com##.ad794
 chexun.com##.attr-outside-ad
 chexun.com##a[attr-outside-ad]
+chigua69.com##.video-list > div.video-item:has(> a[adv_id])
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
 china.cn##.extension_ul > .special
@@ -21158,9 +21159,11 @@ hk.yahoo.com##.js-stream-content[style="background-color:#fafaff;"]
 hk.yahoo.com##div[id^="my-ads"]
 hk.yahoo.com##li[class="js-stream-content Cf Pos-r RevealNested      "][data-uuid]:not([data-uuid*="-"])
 hk01.com###debug-0-ad-outer-container
+hk01.com##.article-grid__desktop-rhs-section > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##.article-grid__desktop-rhs-section > .items-center:has(> div[class^="sc-"] > div[data-id="lazyload-placeholder"])
 hk01.com##.md\:min-h-\[90px\]
 hk01.com##.min-h-\[250px\].mb-3
+hk01.com##article > .items-center:has(.lazyload-wrapper > .js-ad-slot)
 hk01.com##div[class^="Box-v"] > .enterviewport__wrapper:has(> div[data-id="lazyload-placeholder"]:only-child)
 hk01.com##div[class^="lg\:min-h-[250px] hidden lg:flex lg:items-center"]
 hk01.com##div[data-id="lazyload-placeholder"]
@@ -25344,6 +25347,7 @@ teepr.com###topAdBlock
 teepr.com##.shop-widget
 teepr.com##body .ucfad_async
 teepr.com##div[class^="mid-post-ad-"]
+tgb.cn###headerggContent
 tgbus.com###neck_970
 tgfcer.com##.ad_headerbanner
 tgfcer.com##.ad_text
@@ -25650,9 +25654,13 @@ tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 tw.stock.yahoo.com##td > div.ysm
 tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
+tw.yahoo.com###fullbleed > div[data-content="å»£å"]
+tw.yahoo.com##.ntk-list > .grid-item:has(> div[data-wf-benji-config])
 tw.yahoo.com##.tabads
 tw.yahoo.com##.travelads
 tw.yahoo.com##[class*="has-beacon-click"][data-wf-beacons^="https://*.gemini.yahoo.com/"]
+tw.yahoo.com##aside > div[id^="module-adgroup"]
+tw.yahoo.com##aside > div[id^="module-sponsoredad"]
 tw.yahoo.com##div[id^="applet_p_"][class^="dealstdv2wafer"]
 tw100s.com##div[class="ui_adblock"]
 tw116.com###t365
@@ -36286,6 +36294,7 @@ zzzyk.com###Tinfo
 ||tetrack.qq.com/tetrack/openApp^
 ||texnet.com.cn/images/cnbanner/
 ||tfg2.com/images/upfile/AD/
+||tgb.cn/res/js/tgbgg/
 ||thcdy.co/baidu2/
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
