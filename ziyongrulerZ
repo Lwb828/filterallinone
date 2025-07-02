@@ -23522,7 +23522,6 @@ pansearch.me##+js(no-xhr-if, adsbygoogle)
 paopaoche.net##.down_btn2.green
 papalah.com##+js(abort-on-property-read, adBlockDetected)
 papalah.com##.sponsor-outer
-papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 passiontimes.hk##.rectAd680
 pc.baizhan.net###gengduo
 pc.baizhan.net##.column_right.fl
@@ -25272,6 +25271,8 @@ vidhub.me,vidhub.tv##.promonk
 vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##.player-info div[class]:has(> div[class][style] > img[onclick^="window.open"]:first-child + span[style]:last-child)
 vidhub2.top,vidhub3.top,vidhub4.cc,vidhub.me,vidhub.tv##div[class][style*="position:"] > img[onclick^="window.open"]
 vidhub3.top,vidhub4.cc##div[style^="position:"]:has(> img[onclick^="window.open"])
+vikacg.com##+js(window.open-defuser)
+vikacg.com,papalah.com,eservice.7-11.com.tw,4399pk.com,downkr.com,cardu.com.tw,cw.com.tw,hk.on.cc,share.acgnx.se##.banner
 vikilife.com###sidebar-tab[style^="height:"]
 vip.diaoyu18.com##.container > a[target="_blank"]
 vip.diaoyu18.com##.huadong > div[style="text-align: center;margin-bottom: 10px;"]
@@ -30045,6 +30046,7 @@ zzzyk.com###Tinfo
 ||dayoo.com/sta/da.js
 ||daysou.com/images/huaweicloud.png
 ||dbmp4.com/js/foot.
+||dbt6ga5v6d15f.cloudfront.net/slf^$domain=vikacg.com
 ||dburl.xyz/js/
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
@@ -31766,6 +31768,7 @@ zzzyk.com###Tinfo
 ||image.uczzd.cn/?id=*
 ||image.uczzd.cn^$app=com.youku.phone
 ||imagebed.org^$domain=kisstube.top
+||imagedelivery.net^$domain=vikacg.com
 ||imagedoll.com^$subdocument,third-party
 ||imagehost.click^$domain=a3v4.top
 ||imageoss.com/images/*_GIF2400x120_
