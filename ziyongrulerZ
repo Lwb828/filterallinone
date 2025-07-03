@@ -21997,6 +21997,15 @@ jjwxc.net##table[style^="width:984px;"]
 jkpan.cc##+js(abort-current-script, document.writeln, \u)
 jkpan.cc##+js(abort-current-script, jQuery, \u)
 jkpan.cc##+js(set-constant, killads, true)
+jkptgbf.xyz,mfulbvu.xyz,91porna.com###app-nav > ul > li:has(> a.app-nav-item[target="_blank"]:not([href*="91porna.com"]))
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##.ad-dialog
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##.dx-banner-item
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##.modal-backdrop
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##.text-mini:has(> .dx-recommend-icons)
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##.video-items > li:has(> a.checkNum)
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##a.checkNum[target="_blank"]:not([href*="91porna.com"])
+jkptgbf.xyz,mfulbvu.xyz,91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 jlmhk.com##.bn
 jlpcn.net##.vodAd
 jmbbs.com###xjj_jmbbs2015_01
@@ -22827,15 +22836,6 @@ mf8.biz###media_image-3
 mf8.biz##.mb-md-4.mb-3.d-lg-block.d-none.block-sales
 mf8.biz##a[href="https://tb.g2h3.com/3UXap"]
 mfa.gov.cn,fmprc.gov.cn#@#.adbox2
-mfulbvu.xyz,91porna.com###app-nav > ul > li:has(> a.app-nav-item[target="_blank"]:not([href*="91porna.com"]))
-mfulbvu.xyz,91porna.com##+js(remove-attr, data-ads_url, [data-ads_url])
-mfulbvu.xyz,91porna.com##.ad-dialog
-mfulbvu.xyz,91porna.com##.dx-banner-item
-mfulbvu.xyz,91porna.com##.modal-backdrop
-mfulbvu.xyz,91porna.com##.text-mini:has(> .dx-recommend-icons)
-mfulbvu.xyz,91porna.com##.video-items > li:has(> a.checkNum)
-mfulbvu.xyz,91porna.com##a.checkNum[target="_blank"]:not([href*="91porna.com"])
-mfulbvu.xyz,91porna.com##div[class^="aspect-"]:has(> div > .swiper-backface-hidden)
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
 mgnacg.com##a[href^="https://fanqiev2.work/auth/register?code="]
@@ -24296,6 +24296,8 @@ silver.org.cn##.logo_dsaas
 silver.org.cn##.zl_login
 silver.org.cn##div[class*="_gg"]
 silver.org.cn##div[class^="ads_"]
+sim.xiangyanglao.cn###popup
+sim.xiangyanglao.cn##.media-r > a[target] > img
 sina.cn###midThreeAds
 sina.cn###promotionCover
 sina.cn##.article-sax
@@ -35842,6 +35844,7 @@ zzzyk.com###Tinfo
 ||v123.nwclsyyx.com/fcss/f/th6.js^
 ||v2.api.nnsmartcity.com/json^$replace=/\"list\"//
 ||v2.sohu.com/integration-api/batch/web^
+||v2ex.com/pro/emitter
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4.cc/m/common.js
 ||v4dwkcv.com/html/click/
