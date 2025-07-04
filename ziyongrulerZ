@@ -14990,6 +14990,7 @@ $websocket,domain=wap.yushuwu.cloud
 4gamers.com.tw##.home-carousel-container
 4gamers.com.tw##.interstitial-ads
 4gamers.com.tw##.mobile-bottom-ads
+4gamers.com.tw##.pull-to-refresh-trigger-element > div[class="vue-portal-target"]
 4gamers.com.tw##.scroller-ads-wrapper
 4gamers.com.tw##.vue-portal-target > div[style="min-height: 210px;"]
 4gamers.com.tw##.vue-portal-target > div[style="min-height: auto;"]
@@ -21797,6 +21798,7 @@ iwatchme2u.com##+js(nano-setTimeout-booster, video-ad-timeout, *, 0.02)
 iwatchme2u.com##+js(window.open-defuser, /bit\.ly|kbtv/)
 iwatchme2u.com##.video-ad-box
 ix8.la##div[class^="ADTOPLB_"] > .bd
+ixdzs.tw##.abg
 ixigua.com##.J_ad
 ixinshijue.com##a[href^="http"] > img[src*=".pstatp."]
 ixueshu.com##a[href^="https://adapi."]
@@ -25033,6 +25035,7 @@ tw.bid.yahoo.com###livePromote
 tw.live##.fsk-window-film
 tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com###module-mktBanner
+tw.news.yahoo.com###module-mktIframe
 tw.news.yahoo.com###mrt-node-Lead-1-Ad
 tw.news.yahoo.com###sda-LDRB-iframe
 tw.news.yahoo.com###sda-LREC2-iframe
@@ -35319,6 +35322,7 @@ zzzyk.com###Tinfo
 ||taozib8.com/a*.js
 ||taozib8.com/sys
 ||taporn.com/d/
+||tarotmood.com/img/banner$domain=ixdzs.tw
 ||tat.tiara.kakao.com/track^
 ||tb*.bdstatic.com/??/tb/_/*/tb/_/ad_stats*.js^$replace=/getAndRenderAd/noad/
 ||tb*.bdstatic.com/??/tb/_/*/tb/_/fengchao_ad*.js^$replace=/adsense/noad/
