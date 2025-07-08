@@ -23660,7 +23660,10 @@ news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
 news.cnyes.com##.content-main > div:empty
 news.cnyes.com##.content-main > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##.content-main > div[class]:has(div[id^="div-gpt-ad-"])
+news.cnyes.com##.section-aside-wrapper ~ div[class] > a[title] ~ div[class]:not([title])
 news.cnyes.com##article > div:has(> div[id^="div-gpt-"])
+news.cnyes.com##div[id^="desktop-ad-card-"]
 news.ebc.net.tw###marquee-box
 news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
 news.ebc.net.tw##.inline_text.has_marker
@@ -23810,6 +23813,7 @@ nodejs.cn##+js(set-constant, adsbygoogle, {})
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
+nodeseek.com##.promotation-item
 nongjitong.com##.ad_sms
 note.youdao.com##.sidebar-ft
 note.youdao.com##.top-btns
@@ -25659,6 +25663,7 @@ tw.news.yahoo.com##.gn_sub_blue
 tw.news.yahoo.com##div[data-google-query-id]
 tw.news.yahoo.com##div[id^="sda-"]
 tw.news.yahoo.com##li[id^="ad-"]
+tw.news.yahoo.com,tw.stock.yahoo.com##iframe[src^="https://tw.buy.yahoo.com/smartbanner/"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
 tw.stock.yahoo.com###ysmcm
@@ -25931,6 +25936,8 @@ vmovier.com##.post-ad-bottom
 vmovier.com##.post-right-item + a[target="_blank"]
 vmvps.com###long_image
 vmvps.com##.spbox
+vocus.cc##article > div[style^="min-height:"]:empty
+vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
 vod1769.com##div[id^="a"]
 voicetube.com###tab-ad-site
@@ -30299,6 +30306,7 @@ zzzyk.com###Tinfo
 ||cdn3.net/pixe/
 ||cdn77.org^*.mp4$badfilter
 ||cdn77.org^*.mp4|
+||cdn77.org^*.mp4|$badfilter
 ||cdncg.com^*/Aepku
 ||cdncg.com^*/FCPXku.
 ||cdncg.com^*/kangmey
@@ -36611,7 +36619,7 @@ zzzyk.com###Tinfo
 ||tw.appledaily.com/pf/resources/prebid*.js
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
-||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com
+||tw.buy.yahoo.com/smartbanner/$domain=tw.news.yahoo.com|tw.stock.yahoo.com
 ||tw.jav321.com^$popup,domain=ucptt.com
 ||tw.live/assets/images/fsk-0*.webp
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
