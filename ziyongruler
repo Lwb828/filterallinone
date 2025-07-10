@@ -23160,6 +23160,7 @@ manhuagui.com##.w250 > .mt10[style="width: 300px; height: 250px;"]
 manhuagui.com##body > div[class]:has(.sitemaji_banner)
 manhuagui.com##div[class]:has(> .adsbyexoclick)
 manhuagui.com##div[style^="width: 300px; height: 250px;"]
+manhuapica.com##a[href^="/ad/"]
 manhuaren.com###lb-win
 manhuatai.com$$div[class="acgn-dynamic-content"]
 manhuatai.com$$div[class="guide-hd-banner"]
@@ -32026,6 +32027,7 @@ zzzyk.com###Tinfo
 ||gstatic.com/youtube/ads^
 ||gter.net/index.html?c=foot_js&type=footer.js
 ||gtimg.cn/mediastyle/event/20160306_music_live/img/skd.jpg
+||gtimg.cn/music/photo_new/T053XD001001BZyX50UcRRk.
 ||gtimg.com/201*/dsp/
 ||gtimg.com/adb/$domain=okooo.com
 ||gtimg.com/adxcdn/
@@ -32814,6 +32816,7 @@ zzzyk.com###Tinfo
 ||imgur.com^$domain=histock.tw|wgun.net
 ||imgur.com^*.gif$domain=18p2p.com
 ||imgxr.com^$domain=xiuren.org
+||imjtv.cc^$third-party
 ||imnks.com/ad2023/$image
 ||imooc.com/open/courselistrandjs
 ||imp.affiliator.com^$third-party
@@ -33355,6 +33358,7 @@ zzzyk.com###Tinfo
 ||k366.com/images/smxs^
 ||k3851.com^$third-party
 ||k7-labelgroup.com/g.html?uid=$image
+||k8dm.com/960x70.
 ||k99.cc^$third-party
 ||kad.gotokeep.com/op-engine-webapp/v1/ad
 ||kaixin001.com.cn/js/cpm-
