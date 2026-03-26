@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-24T14:39:42.015Z
+! Last modified: 2026-03-25T23:10:25.827Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -2448,6 +2448,7 @@ $websocket,domain=cechi8.com
 .gif|$domain=99a67.com
 .gif|$image,3p,domain=huanggua22.com
 .gif|$image,3p,domain=jiuqugan.top
+.gif|$image,3p,domain=91jp3.beauty
 .gif|$third-party,domain=33235.net
 .googleanalytics.js
 .googleanalytics.prod.

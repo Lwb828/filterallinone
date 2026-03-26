@@ -1546,6 +1546,7 @@ $websocket,domain=cechi8.com
 .gif|$domain=99a67.com
 .gif|$image,3p,domain=huanggua22.com
 .gif|$image,3p,domain=jiuqugan.top
+.gif|$image,3p,domain=91jp3.beauty
 .gif|$third-party,domain=33235.net
 .googleanalytics.js
 .googleanalytics.prod.
