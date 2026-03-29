@@ -26178,6 +26178,7 @@ nodejs.cn##+js(set-constant, adRender, noopFunc)
 nodejs.cn##+js(set-constant, adsbygoogle, {})
 nodejs.cn##+js(set-constant, adsbygoogle.loaded, true)
 nodejs.cn##.mymn-banner
+nodejs.cn##a[href*="crmeb.net"]
 nodeloc.com###wghtml
 nodeloc.com##.AfruxWidgets-sideNavAlt
 nodeseek.com###nsk-right-panel-container > div.category-list + div:not([class])
@@ -31485,6 +31486,7 @@ zzzyk.com###Tinfo
 ||baby-kingdom.com/reqsads?
 ||bachashuku.cc/scripts/ad/
 ||backchina.com/banners/
+||bad.news/images/ad/
 ||bad.news/scripts?
 ||bad996.com/dakaads.js
 ||badmintoncn.com/cbo_gg/
