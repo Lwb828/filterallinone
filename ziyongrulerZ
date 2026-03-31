@@ -25946,7 +25946,7 @@ mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com##div[style^="width:728px; height:90px;"]
 mydrivers.com##div[style^="width:890px;height:100px;"]
 mydrivers.com##img[width="300"][height="250"]
-mydrivers.com##li:has(>.titl+:contains(å¥½ç©))
+mydrivers.com##li:has(>.titl+:contains(/å¥½\s*ç©/))
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)
@@ -26577,6 +26577,7 @@ portablesoft.org##.downcenter
 portablesoft.org##.rightside > :nth-child(n+2)
 portablesoft.org##.sidebar-box
 portablesoft.org##.sidebar-widget:first-child
+post.smzdm.com##.side-eleven-activity
 power.baidu.com,www.baidu.com,zhidao.baidu.com##style[id*="s-m"] + div[id^="m"]
 power.baidu.com,zhidao.baidu.com##.wgt-clew[data-type="goods"]
 poxiaotv.net##.vdbto,.qptp + a,[onclick],.qpgdo

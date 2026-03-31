@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-03-28T23:05:23.062Z
+! Last modified: 2026-03-30T23:09:20.874Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.39
 !
@@ -14343,6 +14343,7 @@ $websocket,domain=cechi8.com
 @@||bdimg.com/libs/$domain=xxqb5200.com
 @@||bdimg.com/libs/$domain=zbzw.la
 @@||bdimg.com/libs/$domain=zhhbqg.com
+@@||bdimg.com/libs/$domain=ymxwx.com
 @@||bdimg.com/libs/$domain=dybee.tv
 @@||bdimg.com/libs/$domain=wuzuowei.net
 @@||bdstatic.com/static/v1/mip$domain=100fanwo.com
@@ -16481,7 +16482,7 @@ mydrivers.com##div[style="width:728px;height:90px; margin: auto; padding-top: 5p
 mydrivers.com##div[style^="width:728px; height:90px;"]
 mydrivers.com##div[style^="width:890px;height:100px;"]
 mydrivers.com##img[width="300"][height="250"]
-mydrivers.com##li:has(>.titl+:contains(å¥½ç©))
+mydrivers.com##li:has(>.titl+:contains(/å¥½\s*ç©/))
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> br + a)
 mydrivers.com#?#.news_info > p:last-of-type + div:-abp-has(> div > a)
 mydrivers.com#?#.news_info > p:last-of-type:-abp-has(> br + a)
@@ -16938,6 +16939,7 @@ unikoshardware.com##.widget_jnews_popular ~ .uniko-widget
 univisa.com.cn###popup
 upan.cc###ShowDIV
 upanso.com##.coupon
+uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##body .code-block
 urbanlifehk.com##.desktop-sidebar__block--ad
 urbanlifehk.com##.pl-main-article__ad-block
 uschinapress.com##.baner_pictur
