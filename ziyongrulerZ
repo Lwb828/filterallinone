@@ -32009,6 +32009,7 @@ zzzyk.com###Tinfo
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
+||castatic.fengkongcloud.cn/pr/
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
 ||cbfw.cn/gonggong/chibi/cf_
@@ -32049,6 +32050,7 @@ zzzyk.com###Tinfo
 ||cdn.galacg.me/img/*.jpg
 ||cdn.jsdelivr.net/gh/bde4admin/*/js/common*.js^$replace=/(if\s*?\(IsPC\(\)\)|keyCode|if\(\s*?window\.canRunAds\s*?\=\=\=\s*?undefined\s*?\))/!\/\/if (IsPC())/i
 ||cdn.ping0.cc/images/ax/*.gif$~3p
+||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noop-0.1s.mp3,domain=m.yichengwlkj.com
 ||cdn.shdsp.net/ad
 ||cdn.staticfile.org/jquery/2.0.0/jquery.min.js$script,domain=kfkn8s.65h79.cn
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
@@ -35179,6 +35181,7 @@ zzzyk.com###Tinfo
 ||m.ybstwl.com/public/tpl/m2/js/
 ||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
+||m.yichengwlkj.com/ssp_ad_sdk.js
 ||m.ysxs8.com/js/content_db.js
 ||m10.iyf.tv/v3/video/play?cinema^$replace=/(\"pauseData\")/\"code\"/i
 ||m10.iyf.tv/v3/video/play?cinema^$replace=/(\/vod\/)/type/i

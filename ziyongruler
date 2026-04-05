@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-03T23:07:45.613Z
+! Last modified: 2026-04-04T23:07:10.025Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -18891,6 +18891,7 @@ zznews.cn##.ad:not([style])
 ||cdn.dfile.cn/slot/
 ||cdn.jsdelivr.net/gh/bde4admin/*/js/common*.js^$replace=/(if\s*?\(IsPC\(\)\)|keyCode|if\(\s*?window\.canRunAds\s*?\=\=\=\s*?undefined\s*?\))/!\/\/if (IsPC())/i
 ||cdn.ping0.cc/images/ax/*.gif$~3p
+||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noop-0.1s.mp3,domain=m.yichengwlkj.com
 ||cdn.staticfile.org/jquery/2.0.0/jquery.min.js$script,domain=kfkn8s.65h79.cn
 ||cdn.wtzw.com/bookimg/free/api/v1/reader/reader-copy-paragraph-all.json^
 ||cdn.wwads.cn/js/makemoney.js$script,redirect=noop.js,domain=nodejs.cn,important

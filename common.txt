@@ -17731,6 +17731,7 @@ zznews.cn##.ad:not([style])
 ||cdn.data.video.iqiyi.com/cdn/qiyiapp/*/ticket_android_plugin.bundle
 ||cdn.dfile.cn/slot/
 ||cdn.ping0.cc/images/ax/*.gif$~3p
+||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noop-0.1s.mp3,domain=m.yichengwlkj.com
 ||cdn.staticfile.org/jquery/2.0.0/jquery.min.js$script,domain=kfkn8s.65h79.cn
 ||cdn.wtzw.com/bookimg/free/api/v1/reader/reader-copy-paragraph-all.json^
 ||cdn.wwads.cn/js/makemoney.js$script,redirect=noop.js,domain=nodejs.cn,important
