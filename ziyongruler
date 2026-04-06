@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-04T23:07:10.025Z
+! Last modified: 2026-04-05T23:05:31.174Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -17096,6 +17096,7 @@ wenku.baidu.com##.sider-edge.operation-wrapper
 wenku.baidu.com##.top-img,.head-img,.org-left,.org-right,.fix-top,.active-info,.end-recommand,.vip-wrapper,.vip-hint-footer,.vip-privilege.vip-privilege-card-wrap,.sider-edge.relative-search-wrap,.lazy-load > .sider-edge.relative-course-wrapper,.sider-edge.fix-block.relative-course-wrapper,.vip-activity-wrap-new
 wenku.baidu.com##.tousu.mod
 wenku.baidu.com##.voucher-pop-tip
+wenku.baidu.com##.yuedu-recommend-wrap
 wenku.baidu.com##.zsj-leftbar-1
 wenku.baidu.com##.zsj-leftbar-3
 wenku.baidu.com##div.fix-searchbar-wrap:nth-child(46) > div.sb-con.clearfix:nth-child(2) > div.zsj-toppos:nth-child(5)
@@ -19912,6 +19913,7 @@ zznews.cn##.ad:not([style])
 ||kkkkmao.com/js/20X4.js
 ||kkkkmao.com/js/fumeiti.js
 ||klaviyo.com/onsite/js/klaviyo.js$third-party
+||klickly.com/track
 ||koe-vip.com/statistik/
 ||kontextr.eu/content/track?
 ||ks.js.cn*/yytf/$object,script
