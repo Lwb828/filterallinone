@@ -697,6 +697,7 @@ $websocket,domain=cechi8.com
 *$script,3p,xhr,domain=m.biquge700.com
 *$script,3p,xhr,domain=biquge001.com
 *$script,xhr,3p,domain=m.1024txt.com
+*$script,xhr,3p,domain=m.niupizhi.net
 *$xhr,denyallow=ddxsmf.com|apps.bdimg.com|cdnsrc.asp.net,domain=ddxsmf.com
 */mobileDispatch?appkey=umeng*
 *adv_type*adv_id*
@@ -15930,7 +15931,6 @@ tvshowbox.tw##a[href=" http://www.shumeimotel.com/"] > img
 tvyb02.com##script + div[style="text-align:center;"]
 tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com##.gn_sub_blue
-tw.stock.yahoo.com###nonStickyHeader-0-AdWrapper-Proxy
 tw.stock.yahoo.com##.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 tw.yahoo.com##.tabads
@@ -17724,7 +17724,6 @@ zznews.cn##.ad:not([style])
 ||captcha-ad.com/stats/
 ||capture.bi.movideo.com/dc?
 ||capture.camify.com/dc?
-||castatic.fengkongcloud.cn/pr/
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||cccpan.me/googg.js
 ||ccm-cdn.qq.com/static/web/tk/*.jpg

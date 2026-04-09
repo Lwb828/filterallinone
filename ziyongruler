@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-07T23:13:02.933Z
+! Last modified: 2026-04-08T23:12:51.548Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -1596,6 +1596,7 @@ $websocket,domain=cechi8.com
 *$script,3p,xhr,domain=biquge001.com
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *$script,xhr,3p,domain=m.1024txt.com
+*$script,xhr,3p,domain=m.niupizhi.net
 *$xhr,denyallow=ddxsmf.com|apps.bdimg.com|cdnsrc.asp.net,domain=ddxsmf.com
 */mobileDispatch?appkey=umeng*
 *adv_type*adv_id*
@@ -16908,7 +16909,6 @@ tvshowbox.tw##a[href=" http://www.shumeimotel.com/"] > img
 tvyb02.com##script + div[style="text-align:center;"]
 tw.mall.yahoo.com##.hpad-wrapper
 tw.news.yahoo.com##.gn_sub_blue
-tw.stock.yahoo.com###nonStickyHeader-0-AdWrapper-Proxy
 tw.stock.yahoo.com##.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
 tw.yahoo.com##.tabads
@@ -18878,7 +18878,6 @@ zznews.cn##.ad:not([style])
 ||card-paopao.iqiyi.com/views_sns/*/long_video_comments$replace=/(ad_str|top_banner)/sb/
 ||cards.iqiyi.com/views_home/*/qy_home$replace=/(\"ad\"|\"blocks\"|\"top_banner\")//
 ||cards.iqiyi.com/views_home/*/qy_home$replace=/(statistics|next_url|ad_str|top_banner|card_r1_c1_btmargin0|l_blocks|t7z|banner|ad_area|focus|base_image_w1_image_big|card_separation_qyhome_ad|ad_play_time|advertise|ad_type|service|levo|metas)/sb/
-||castatic.fengkongcloud.cn/pr/
 ||ccav1.com/wp-content/themes/BYMT/images/mengmengdeguanggao.jpg
 ||cccpan.me/googg.js
 ||ccm-cdn.qq.com/static/web/tk/*.jpg

@@ -1970,6 +1970,7 @@ $websocket,domain=wap.yushuwu.cloud
 *$script,3p,xhr,domain=biquge001.com
 *$script,third-party,xmlhttprequest,domain=cnbtspread.xyz
 *$script,xhr,3p,domain=m.1024txt.com
+*$script,xhr,3p,domain=m.niupizhi.net
 *$xhr,denyallow=ddxsmf.com|apps.bdimg.com|cdnsrc.asp.net,domain=ddxsmf.com
 */mobileDispatch?appkey=umeng*
 *adv_type*adv_id*
@@ -27811,10 +27812,10 @@ tw.news.yahoo.com##div[id^="defaultLDRB"]
 tw.news.yahoo.com##li[id^="ad-"]
 tw.nextapple.com##[class^="na-ad-"]
 tw.nextapple.com##[id^="lrec"]
-tw.stock.yahoo.com###nonStickyHeader-0-AdWrapper-Proxy
 tw.stock.yahoo.com###ysmcm
 tw.stock.yahoo.com##.news > div[class="bd quote"]:has(ul > li > .geminiAd)
 tw.stock.yahoo.com##div[align="center"][style="height:90px"]
+tw.stock.yahoo.com##div[id*="AdWrapper"]
 tw.stock.yahoo.com##td > div.ysm
 tw.stock.yahoo.com##tr:has(> td[valign="top"] > .geminiAd)
 tw.stock.yahoo.com#?#.news > div[class="bd quote"]:has(ul > li > .geminiAd)
@@ -32011,7 +32012,6 @@ zzzyk.com###Tinfo
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
-||castatic.fengkongcloud.cn/pr/
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
 ||cbfw.cn/gonggong/chibi/cf_
@@ -35171,6 +35171,7 @@ zzzyk.com###Tinfo
 ||m.lelekan.com/sp/
 ||m.manhua123.net/js/com1.js
 ||m.mianbao99.com/js/detail.js
+||m.niupizhi.net/lokedpgdjs
 ||m.pianba.tv/ad/
 ||m.pianku.tv/ajax/MyJs^
 ||m.q1xs.com/17mb/script/wap.js
