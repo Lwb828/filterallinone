@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-08T23:12:51.548Z
+! Last modified: 2026-04-09T23:15:28.252Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -219,6 +219,7 @@ $3p,websocket,xhr,domain=qiyoudy4.com
 $3p,xhr,domain=subhd.tv
 $3p,xhr,domain=subhdtw.com
 $3p,xhr,domain=zzzzz688.com
+$csp=script-src 'self' * 'unsafe-inline',domain=m.chenkuan.com
 $image,3p,domain=258zw.com
 $image,3p,domain=lady1.top
 $object,script,subdocument,3p,websocket,xhr,domain=xbiqige.cc
