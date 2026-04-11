@@ -270,7 +270,7 @@ $csp=script-src 'self' * 'unsafe-inline',domain=nipubook.com
 $csp=script-src 'self' * 'unsafe-inline',domain=nuoshuge.com
 $csp=script-src 'self' * 'unsafe-inline',domain=puquz.com
 $csp=script-src 'self' * 'unsafe-inline',domain=wuwusk.com
-$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
+$csp=script-src 'self' * 'unsafe-inline',domain=kbook8.com
 $csp=script-src 'self' * 'unsafe-inline',domain=yemancomic.com
 $csp=script-src 'self' * 'unsafe-inline',domain=erciyan.com
 $csp=script-src 'self' * 'unsafe-inline',domain=feiguaks.com
@@ -317,7 +317,7 @@ $csp=script-src 'self' * 'unsafe-inline',domain=product44.com
 $csp=script-src 'self' * 'unsafe-inline',domain=snxsw.com
 $csp=script-src 'self' * 'unsafe-inline',domain=xiexinde.net
 $csp=script-src 'self' * 'unsafe-inline',domain=m.6666xsw.com
-$csp=script-src 'self' * 'unsafe-inline',domain=m.chenkuan.com
+$csp=script-src 'self' * 'unsafe-inline',domain=m.niupizhi.net
 $csp=script-src 'self' * 'unsafe-inline',domain=jmshuwu.net
 $csp=script-src 'self' * 'unsafe-inline',domain=wodexiaoshuoh.com
 $csp=script-src 'self' * 'unsafe-inline',domain=tetservices.net
@@ -353,6 +353,7 @@ $csp=script-src 'self' * 'unsafe-inline',domain=shukuge.com
 $csp=script-src 'self' * 'unsafe-inline',domain=sthuojia.net
 $csp=script-src 'self' * 'unsafe-inline',domain=tvyun07.com
 $csp=script-src 'self' * 'unsafe-inline',domain=zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com
 $csp=script-src 'self' *,domain=zduxs.com
 $csp=script-src 'self' *,domain=90shuyuan.com
@@ -547,7 +548,7 @@ $object,script,subdocument,3p,websocket,xhr,domain=bshuku.com
 $object,script,subdocument,3p,websocket,xhr,domain=bxwx.live
 $object,script,subdocument,3p,websocket,xhr,domain=bxwx00.com
 $object,script,subdocument,3p,websocket,xhr,domain=changduzw.com
-$object,script,subdocument,3p,websocket,xhr,domain=chenkuan.com
+$object,script,subdocument,3p,websocket,xhr,domain=niupizhi.net
 $object,script,subdocument,3p,websocket,xhr,domain=china-wuling.com
 $object,script,subdocument,3p,websocket,xhr,domain=damengzhu1.com
 $object,script,subdocument,3p,websocket,xhr,domain=ddbqgtxt.cc
@@ -4628,7 +4629,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\/\w{8}\/\w{10}\./$script,~3p,domain=bxwx.live
 /\/\w{8}\/\w{10}\./$script,~3p,domain=bxwx00.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=changduzw.com
-/\/\w{8}\/\w{10}\./$script,~3p,domain=chenkuan.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=damengzhu1.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=ddbqgtxt.cc
 /\/\w{8}\/\w{10}\./$script,~3p,domain=diyibanzhu9.pro
@@ -24002,6 +24002,7 @@ huanqiu.com##.adindexList
 huanqiu.com##.itemAd
 huanqiu.com##.r-hqNext-ad
 huaren.live##.action-ad
+huaren.live##.pause-love
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
 huaren.live,huavod.com#@#.ad_unit
 huaren.live,umbooks.com##+js(no-window-open-if)
@@ -25445,6 +25446,7 @@ m.manhuatai.com##.guide-hd-banner
 m.mobile01.com##.u-gapNextV--lg.u-height280
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
+m.mydrivers.com##.news_content + div > a:first-child
 m.mydrivers.com##.share
 m.mydrivers.com##div[style$="px 0px 0px 0px;text-align:center;"]
 m.mydrivers.com#?#.cnewsinfo > p:-abp-has(.f14_link + br + .f14_link)
@@ -26755,6 +26757,7 @@ qq.com##.mod_stridead
 qq.com##.player-side-ads
 qq.com##.player_bg_ad
 qq.com##.qiye-Article-QQ
+qq.com##.qzone-carousel-ad
 qq.com##.seeking-gg
 qq.com##.sider_ad
 qq.com##.site_words
@@ -35799,6 +35802,8 @@ zzzyk.com###Tinfo
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okokserver.com/js/anti/pop*.js$domain=huaren.live
+||okokserver.com/uploads/haigou.
+||okokserver.com/uploads/lesi/
 ||okooo.com/I/?method=system.data.ad&
 ||oldpig.org/live.html
 ||olehdtv.com/index.php/index/userss|
@@ -36236,6 +36241,7 @@ zzzyk.com###Tinfo
 ||qingsedhh.com/images/gg.gif
 ||qingxinwx.*/static/xbiquge/js/wap.
 ||qiqipu.*/js/123/
+||qiqiuges.com/mk.
 ||qiqivoip.com/333/
 ||qishula.com/css/wap.
 ||qitete.com/mid/

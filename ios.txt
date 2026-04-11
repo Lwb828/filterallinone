@@ -1,2 +1,1 @@
-$csp=script-src 'self' * 'unsafe-inline',domain=m.chenkuan.com
 smzdm.com##.swiper-container-ios

@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-09T23:15:28.252Z
+! Last modified: 2026-04-10T23:12:01.233Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.0.0
 !
@@ -219,7 +219,6 @@ $3p,websocket,xhr,domain=qiyoudy4.com
 $3p,xhr,domain=subhd.tv
 $3p,xhr,domain=subhdtw.com
 $3p,xhr,domain=zzzzz688.com
-$csp=script-src 'self' * 'unsafe-inline',domain=m.chenkuan.com
 $image,3p,domain=258zw.com
 $image,3p,domain=lady1.top
 $object,script,subdocument,3p,websocket,xhr,domain=xbiqige.cc
@@ -393,7 +392,7 @@ $object,script,subdocument,3p,websocket,xhr,domain=bshuku.com
 $object,script,subdocument,3p,websocket,xhr,domain=bxwx.live
 $object,script,subdocument,3p,websocket,xhr,domain=bxwx00.com
 $object,script,subdocument,3p,websocket,xhr,domain=changduzw.com
-$object,script,subdocument,3p,websocket,xhr,domain=chenkuan.com
+$object,script,subdocument,3p,websocket,xhr,domain=niupizhi.net
 $object,script,subdocument,3p,websocket,xhr,domain=china-wuling.com
 $object,script,subdocument,3p,websocket,xhr,domain=damengzhu1.com
 $object,script,subdocument,3p,websocket,xhr,domain=ddbqgtxt.cc
@@ -3796,7 +3795,6 @@ $websocket,domain=cechi8.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=bxwx.live
 /\/\w{8}\/\w{10}\./$script,~3p,domain=bxwx00.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=changduzw.com
-/\/\w{8}\/\w{10}\./$script,~3p,domain=chenkuan.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=damengzhu1.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=ddbqgtxt.cc
 /\/\w{8}\/\w{10}\./$script,~3p,domain=diyibanzhu9.pro
