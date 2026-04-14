@@ -4530,6 +4530,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\/\w{17}\//$script,~3p,domain=lancaizhu.com
 /\/\w{17}\//$script,~3p,domain=haitangwenxue999.com
 /\/\w{17}\//$script,~3p,domain=hbhmzt.com
+/\/\w{8}\/\w{10}\./$script,~3p,domain=2kzw.info
 /\/\w{8}\/\w{10}\./$script,~3p,domain=xwbxsw1.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=31xa.org
 /\/\w{8}\/\w{10}\./$script,~3p,domain=xpshuku.com
@@ -30533,6 +30534,8 @@ zzzyk.com###Tinfo
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/image/ad_
 ||5dmail.net/js/
+||5dxs.net/themes/jieqi/wap/js/fixed.
+||5dxs.net/themes/jieqi/wap/js/test.
 ||5fz.cc/t/aimg/tao
 ||5icool.org/uploadfile/poster/
 ||5ilinglei.com/gg.html

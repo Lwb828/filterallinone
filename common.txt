@@ -2759,6 +2759,7 @@ $websocket,domain=cechi8.com
 /\/\w{17}\//$script,~3p,domain=lancaizhu.com
 /\/\w{17}\//$script,~3p,domain=haitangwenxue999.com
 /\/\w{17}\//$script,~3p,domain=hbhmzt.com
+/\/\w{8}\/\w{10}\./$script,~3p,domain=2kzw.info
 /\/\w{8}\/\w{10}\./$script,~3p,domain=xwbxsw1.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=31xa.org
 /\/\w{8}\/\w{10}\./$script,~3p,domain=xpshuku.com
@@ -15458,6 +15459,7 @@ money.163.com##.finance_header:style(height: auto !important;)
 money.163.com##.finance_header_gg:style(display: none !important;)
 mongoing.com##.widget_custom_html:has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
+mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"])
 movieclassic.net###billboard-modal
 movieclassic.net##.modal-backdrop
 moyu16.com##.nav-banner
