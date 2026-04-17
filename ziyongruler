@@ -4,9 +4,9 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-15T23:22:05.943Z
+! Last modified: 2026-04-16T23:22:46.006Z
 !
-! Compiled by @adguard/hostlist-compiler v2.0.0
+! Compiled by @adguard/hostlist-compiler v2.1.0
 !
 !
 ! Source name: Local rules
@@ -20306,6 +20306,7 @@ zznews.cn##.ad:not([style])
 ||ocp.cnettv.com^*/Request.jsp?
 ||oebais8m0.qnssl.com/media/img/edu250-200.jpg
 ||ofweek.com/img/proimage/2017/osl
+||okokserver.com/uploads/haigou.
 ||oldpig.org/live.html
 ||olevod.com/poppagen.php
 ||omanhua.net/scripts/show/3
