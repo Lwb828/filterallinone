@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-16T23:22:46.006Z
+! Last modified: 2026-04-17T23:19:32.290Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13738,6 +13738,7 @@ $websocket,domain=cechi8.com
 52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com,zhenn.net,zn501.com##.GzList
 52ghai.com##.a_xiu_t
 52ghai.com##.yttl_x_g
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 52solution.com##div[class*="banner"]
 55188.com,g138.com##.gg_head_l
@@ -14447,6 +14448,7 @@ $websocket,domain=cechi8.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=alotof.software
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=switch520.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yabook.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myqqjd.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rjno1.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=duelmeta.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=linetv.tw
@@ -15973,8 +15975,11 @@ huan.moe###headhead
 huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos, noopFunc)
 huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos_Simple, noopFunc)
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
+huaren.live,huavod.com,huavod.net##a[href="/go/baba/1"]
 huaren.live,umbooks.com##+js(no-window-open-if)
-huavod.com,huaren.live##+js(set-constant, ConFig.config.ads, {})
+huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
+huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
+huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.config.ads, {})
 huoqwk.com,wap.biqugewx.info##+js(no-setTimeout-if, addEventListener("touchstart")
 hurigirls99.xyz###rightd
 hurigirls99.xyz###undertd
@@ -20306,7 +20311,6 @@ zznews.cn##.ad:not([style])
 ||ocp.cnettv.com^*/Request.jsp?
 ||oebais8m0.qnssl.com/media/img/edu250-200.jpg
 ||ofweek.com/img/proimage/2017/osl
-||okokserver.com/uploads/haigou.
 ||oldpig.org/live.html
 ||olevod.com/poppagen.php
 ||omanhua.net/scripts/show/3
