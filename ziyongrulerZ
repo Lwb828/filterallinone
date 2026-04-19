@@ -16986,6 +16986,7 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com##.mod-txtred
 2345.com##.mzdh_bottom
 2345.com##.newsArea
+2345.com##.part-banner
 2345.com##.part-banner > .part-ppt
 2345.com##.pic:has(a[href^="http://g.wan."])
 2345.com##.s11-fixNav
@@ -17412,7 +17413,7 @@ $websocket,domain=wap.yushuwu.cloud
 52ghai.com##.yttl_x_g
 52kd.com###frame2cu3VU
 52life.cc##table[style="margin-top:0"]
-52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
+52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmog.me,htcui.com,huan.moe,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,kuaikan33.com,languang.co,llss.bz,meijutt.tv,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,rijutv.co,souxue8.com,speedtest.cn,tingroom.com,tucao.in,vpansou.com,whsir.com,xxshe.info,xxshe.xyz,youku.com,zhideqiang.com##a[href*=".taobao.com"]
 52niuyan.cc##.top_fixed
 52niuyan.cc##a[onclick][rel][style*="toutiaoimg.com"]
@@ -19583,7 +19584,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mens1069.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=monnsutogatya.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mpyit.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myqqjd.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=numberempire.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ozabc.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pansearch.me
@@ -24011,7 +24011,6 @@ huaren.live##.action-ad
 huaren.live##.pause-love
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
 huaren.live,huavod.com#@#.ad_unit
-huaren.live,huavod.com,huavod.net##a[href="/go/baba/1"]
 huaren.live,umbooks.com##+js(no-window-open-if)
 huaren.tv##.live-client_left
 huaren.tv##.live-client_right
@@ -24022,9 +24021,9 @@ huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
 huavod.com##a[href^="https://lesi198.com"]
-huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
-huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
-huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.config.ads, {})
+huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
+huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
+huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -24669,6 +24668,10 @@ jandan.net##.goods2-list
 jandan.net##.post[style="padding-left:150px;width:336px;height:280px;"]
 jandan.net##a[href*="/money.php?"]
 jandan.net##a[href^="//api.jandan.net/money.php?"]
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop###AFOO
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop##+js(abort-current-script, document.write, /<script src=.*Math\.floor\(Date\.now\(\)/)
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop##+js(no-setTimeout-if, ](getComputedStyle\,)
+jav224.shop,ttp229.shop,clp126.shop,hsq233.shop#@#.ad-unit:not(.textads)
 jav777.xyz##+js(noeval-if, ADS_BLOCKED)
 jav777.xyz##iframe[src^="//ads.exoclick.com/"]
 javdove.com##.ad-body
@@ -27498,6 +27501,7 @@ supportdap.online##.td-post-content > a[rel="nofollow"] > img
 surirt.com##+js(set-constant, ad_id_for_555, '')
 surirt.com##+js(set-constant, all520dddaaa2022ccc, true)
 surirt.com,520cc.cc,v.5278.mobi,jizz99.com,bonbonyou.com,in99.org,av99.us,jav777.xyz,520call.me,hboav.com###inplayer
+surumi.shop###container > .art-video-player + div[id][style^="position: absolute;"][style*="z-index: 999"]
 susongbbs.com#@#.ad_banner
 sutin0831.pixnet.net##div[class*="-ad-sidebar-"]:style(position: absolute!important; left: -3000px!important;)
 suxzp.com##.full-screen-cover
@@ -28078,6 +28082,9 @@ vmovier.com##.post-ad-bottom
 vmovier.com##.post-right-item + a[target="_blank"]
 vmvps.com###long_image
 vmvps.com##.spbox
+vocus.cc##.SimpleDialogOverlay
+vocus.cc##.editor-content-block > div[style="position: relative; z-index: 1;"]
+vocus.cc##.editor-content-block > div[style]:has(> div#vocus_pc_reading_content_middle)
 vocus.cc##article > div[style^="min-height:"]:empty
 vocus.cc##article > div[style^="min-height:"]:has(> div[class^="sc-"] > div[class^="sc-"] > ins[data-rmax-space-id])
 vod1769.com##.banner_img
@@ -28395,6 +28402,7 @@ wmzhe.com##.aibyte_ad
 wmzhe.com##.downloader
 wn789.com##.sidebar > .widget:not(:first-child):not(.widget_ui_posts)
 wn789.com##a[href^="http"]:not([href*="://www.wn789."]) > img
+wnacg.com##a[href*="erodatalabs.com"]
 wnacg.com##a[href^="https://ent.ystwfucb.shop/"]
 wnacg.com##a[href^="https://l.labsda.com/"]
 wnacg.com#@##adsbox
@@ -37025,6 +37033,10 @@ zzzyk.com###Tinfo
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.okokserver.com/uploads/lesi/$image,domain=huaren.live
 ||static.okokserver.com/uploads/lesi/$image,domain=huavod.com
+||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huaren.live
+||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.net
+||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.com
+||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.top
 ||static.okokserver.com/uploads/lesi/lesi.mp4$media
 ||static.olelive.com/upload/site/*/*.gif
 ||static.qiyi.com/js/pingback/
