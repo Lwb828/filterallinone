@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-18T23:10:30.457Z
+! Last modified: 2026-04-19T23:11:42.372Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -16422,6 +16422,7 @@ mf8.biz##a[href="https://tb.g2h3.com/3UXap"]
 microsoftnews.msn.cn##.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 mimark1.wordpress.com##div#atatags-26942-5decd6c529f6e
 minecraftzw.com##.e3lan-top
+mkfjbitxzlhijf*.top/$script,xhr,3p
 mmff30.com##.titletablediv .titletablecell > a[target="_blank"]:not([href$="html"]):not([target="_self"])
 mmff30.com##.top_box
 mmff30.com##a[href$="/ref.html"]
