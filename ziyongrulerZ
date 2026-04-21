@@ -3297,7 +3297,6 @@ $websocket,domain=wap.yushuwu.cloud
 .sk/ads/
 .skimlinks.js
 .snowplowanalytics.$domain=~snowplowanalytics.com
-.so0*koaq.com/$script,xhr,3p
 .social_tracking.
 .spacepools.*:
 .sponsorads.
@@ -24024,6 +24023,7 @@ huavod.com##a[href^="https://lesi198.com"]
 huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
 huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
+huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side

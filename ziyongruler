@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-19T23:11:42.372Z
+! Last modified: 2026-04-20T23:22:33.790Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -2650,7 +2650,6 @@ $websocket,domain=cechi8.com
 .sitetracking.
 .sk/ads/
 .snowplowanalytics.$domain=~snowplowanalytics.com
-.so0*koaq.com/$script,xhr,3p
 .social_tracking.
 .spacepools.*:
 .sponsorads.
@@ -15975,6 +15974,7 @@ huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos_Simple, noopFunc)
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
 huaren.live,umbooks.com##+js(no-window-open-if)
 huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
+huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
 huoqwk.com,wap.biqugewx.info##+js(no-setTimeout-if, addEventListener("touchstart")
 hurigirls99.xyz###rightd
 hurigirls99.xyz###undertd
