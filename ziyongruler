@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-04-20T23:22:33.790Z
+! Last modified: 2026-04-21T23:16:40.278Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -15421,6 +15421,7 @@ biquge001.com,fuliba.net###content > a
 biqugee.com##div[style="width:976px;"]
 bisowu.cc##.a-row
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
+bitxzlhi*.top/$script,xhr,3p
 bixia.org##dd[style*="bottom:"]
 biz.zjol.com.cn##.bot
 biz.zjol.com.cn##.rBlok1[style=" margin-bottom:10px;"]
@@ -16422,7 +16423,6 @@ mf8.biz##a[href="https://tb.g2h3.com/3UXap"]
 microsoftnews.msn.cn##.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
 mimark1.wordpress.com##div#atatags-26942-5decd6c529f6e
 minecraftzw.com##.e3lan-top
-mkfjbitxzlhijf*.top/$script,xhr,3p
 mmff30.com##.titletablediv .titletablecell > a[target="_blank"]:not([href$="html"]):not([target="_self"])
 mmff30.com##.top_box
 mmff30.com##a[href$="/ref.html"]
@@ -16493,6 +16493,7 @@ mydrivers.com#?#.news_info > p:nth-last-of-type(2):-abp-has(> br + a)
 myfreax.com##main > div.w-full:has(> ins.adsbygoogle)
 myptt.cc##+js(set-constant, adsbygoogle.loaded, true)
 myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_blank"][style^="display:inline-block;"] > img
+myqqjd.com,cnprint.org,ez3c.tw,easylife.tw##.adsbygoogle
 mysteel.com##body:style(background-image: none !important;)
 mzyz.com###idTransformView2
 n3ro.live##.card > .row
