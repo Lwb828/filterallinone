@@ -504,7 +504,7 @@ $object,script,subdocument,3p,websocket,xhr,domain=779buy.com
 $object,script,subdocument,3p,websocket,xhr,domain=77xsw.cc
 $object,script,subdocument,3p,websocket,xhr,domain=8181zw.vip
 $object,script,subdocument,3p,websocket,xhr,domain=81book.com
-$object,script,subdocument,3p,websocket,xhr,domain=91zww.com
+$object,script,subdocument,3p,websocket,xhr,domain=yaokanwx.com
 $object,script,subdocument,3p,websocket,xhr,domain=93xscc.com
 $object,script,subdocument,3p,websocket,xhr,domain=99mk.net
 $object,script,subdocument,3p,websocket,xhr,domain=9tiefu.com
@@ -4595,7 +4595,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\/\w{8}\/\w{10}\./$script,~3p,domain=777zw.net
 /\/\w{8}\/\w{10}\./$script,~3p,domain=77xsw.cc
 /\/\w{8}\/\w{10}\./$script,~3p,domain=81book.com
-/\/\w{8}\/\w{10}\./$script,~3p,domain=91zww.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=93xscc.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=99mk.net
 /\/\w{8}\/\w{10}\./$script,~3p,domain=9tiefu.com
@@ -22554,6 +22553,7 @@ douban.com##.rec_topics:has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com##.rec_topics_name[href^="https://erebor.douban."]
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
 douban.com#@#.download-ad
+doubao.com###activity-entrance-popup-root
 doubibackup.com###guangg_image
 doubibackup.com##.guangg
 doubibackup.com##.new_zixun
@@ -28800,9 +28800,9 @@ xingkbjm.com##.d_postlist > ul > li:nth-child(-n+2)
 xingkbjm.com##.d_textbanner
 xingkbjm.com##script + div + .excerpt
 xingkbjm.com##script + div + .excerpt + .excerpt
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com###main > div[id^="rd"]
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.card:has(>.card-image>a[href^="http"])
-xinhua348.com,xinhua110.com,91porny.org,jstv600.com##.footer + .block
+xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
+xinhua348.com,jstv42.site,91porny.org,jstv600.com##.card:has(>.card-image>a[href^="http"])
+xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv3
 xinhuanet.com##.columBox.book
