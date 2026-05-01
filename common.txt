@@ -15646,8 +15646,6 @@ piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 pic.imgdb.cn/item/*.gif
 pincong.rocks##+js(no-setInterval-if, Ad Block)
-ping0.cc###adxright
-ping0.cc##.xxeles
 pinlue.com##.appOnly-container.feed-list-container
 pinlue.com##.article-container > .cat_title.section-hd
 pixabay.com##.carbon-ad
@@ -15955,6 +15953,7 @@ ucloud.cn$$img[src="https://www.ucloud.cn/yun"]
 udn.com###ad_mag
 udn.com###content_body_banner
 udn.com###udn_scupio_responsive_wrapper
+udn.com##.inline-ads
 udn.com##.main-content:style(background-image: none !important;)
 udn.com##.only_web > .DisplayVideo
 udn.com##.udn-ads
