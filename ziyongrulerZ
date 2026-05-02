@@ -16986,7 +16986,6 @@ $websocket,domain=wap.yushuwu.cloud
 2345.com##.mzdh_bottom
 2345.com##.newsArea
 2345.com##.part-banner
-2345.com##.part-banner > .part-ppt
 2345.com##.pic:has(a[href^="http://g.wan."])
 2345.com##.s11-fixNav
 2345.com##.s11-logowall
@@ -25750,6 +25749,7 @@ mobile01.com###ad-control
 mobile01.com###show-play-ad
 mobile01.com##.ad-adblock
 mobile01.com##.admicrobtn
+mobile01.com##.dable-bottom_theme
 mobile01.com##.dable-side_theme
 mobile01.com##.fast-ad
 mobile01.com##.l-articlePage:has(> .l-articlePage__author .c-authorInfo__id > a[href^="/marketstore.php?"])
