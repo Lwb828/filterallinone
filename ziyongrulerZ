@@ -13146,6 +13146,7 @@ $websocket,domain=wap.yushuwu.cloud
 /pgrightsideads.
 /pgtracking.
 /pgtrackingV3.
+/phoenix-share/js/code.123.bg.
 /photo728ad.
 /photoad.
 /photoads/*
@@ -16629,6 +16630,8 @@ $websocket,domain=wap.yushuwu.cloud
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 12377.cn###notice
+123865.com##+js(no-window-open-if)
+123865.com##.bg_svip_block_ads
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.baidu-banner-container
@@ -24761,6 +24764,7 @@ jijidown.com##div[style="width: 525px;"]:last-child
 jijidy.com###box
 jiligame.com##img[onerror="zhurl($(this))"]
 jin10.com###J_wdgg_t
+jin10.com##.desktop-tip
 jin10.com##.l-main > div > .jin-timeline
 jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-1"]
 jin10.com##.quoted-price__pro
@@ -32137,7 +32141,7 @@ zzzyk.com###Tinfo
 ||cgown.com^*/peiyinquan
 ||cha001.com/*/*.gif
 ||cha001.com/*/*.jpg
-||chachefa.com/asdfasdfqwer/
+||chachefa.com^*.js?v=
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js

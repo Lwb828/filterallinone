@@ -12608,6 +12608,7 @@ $websocket,domain=cechi8.com
 121xz.com##.c_money
 123.com.cn##.wraper_ad
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
+123865.com##+js(no-window-open-if)
 139.99.9.29,app=com.yyets.pro
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
