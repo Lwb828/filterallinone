@@ -26505,7 +26505,10 @@ pincong.rocks##.aw-mod > a[target="_blank"]
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping0.cc###adaright
+ping0.cc###adbright
 ping0.cc##.xyeles
+ping0.cc##.xzeles
+ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
 pinggu.org##.indextop-r
@@ -27428,6 +27431,8 @@ sportsplanetmag.com##.adshow
 sportsv.net##.adv01
 sportsv.net##.box.ad
 srzc.com##.topgg
+ssm.fun##.cAnnouncements
+ssm.fun##.cAnnouncementsContent
 ssnn.net###float_picr
 ssnn.net###nrk_gg
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
@@ -28660,6 +28665,7 @@ wxrb.com##.AD305
 wxrb.com##.AD340
 wxrb.com##.AD640
 wxrb.com##.ADtxt
+wxredian.com##+js(set-constant, checkAdScript, noopFunc)
 wxsck.com###content > div[style^="clear:"]
 wxsck.com##.fixed-btn ~ div[style^="position:fixed; bottom:"]
 wxsck.com##.footer:style(margin-top: 0px !important;)
@@ -35213,6 +35219,7 @@ zzzyk.com###Tinfo
 ||m.pianba.tv/ad/
 ||m.pianku.tv/ajax/MyJs^
 ||m.q1xs.com/17mb/script/wap.js
+||m.qishuba.com/jump/
 ||m.qiushuzw.com/9CB0D8A5/2dfc69b0d8a5.js
 ||m.shushu8.com/js/tongji.js?
 ||m.tiebaimg.com/timg?wapp^*imgtype=0$image

@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-05-04T23:38:17.857Z
+! Last modified: 2026-05-05T23:33:45.277Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13567,6 +13567,7 @@ $websocket,domain=cechi8.com
 123.com.cn##.wraper_ad
 12306.cn,club.pchome.net,kdslife.com,qinbing.cn###slideBox
 123865.com##+js(no-window-open-if)
+123865.com##.bg_svip_block_ads
 139.99.9.29,app=com.yyets.pro
 13mv.com##.aggd
 13mv.com##li[id^="media_image-"]
@@ -17340,6 +17341,7 @@ wxrb.com##.AD305
 wxrb.com##.AD340
 wxrb.com##.AD640
 wxrb.com##.ADtxt
+wxredian.com##+js(set-constant, checkAdScript, noopFunc)
 wxsck.com##.footer:style(margin-top: 0px !important;)
 x3cn.com##body > div#qmenu_menu ~ div[style]:has(> a[target="_blank"])
 x3cn.com#?#.commonDiv:-abp-has(.ad)
