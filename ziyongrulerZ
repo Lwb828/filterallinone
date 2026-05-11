@@ -346,7 +346,6 @@ $csp=script-src 'self' * 'unsafe-inline',domain=yourbiquge.com
 $csp=script-src 'self' * 'unsafe-inline',domain=biquge345.com
 $csp=script-src 'self' * 'unsafe-inline',domain=666biquge.com
 $csp=script-src 'self' * 'unsafe-inline',domain=biquwx.cc
-$csp=script-src 'self' * 'unsafe-inline',domain=2kans.net
 $csp=script-src 'self' * 'unsafe-inline',domain=aidu123.com
 $csp=script-src 'self' * 'unsafe-inline',domain=biquluo.info
 $csp=script-src 'self' * 'unsafe-inline',domain=bqgh.com
@@ -468,7 +467,7 @@ $object,script,subdocument,3p,websocket,xhr,domain=147xiaoshuo.com
 $object,script,subdocument,3p,websocket,xhr,domain=156zw.com
 $object,script,subdocument,3p,websocket,xhr,domain=17k.com
 $object,script,subdocument,3p,websocket,xhr,domain=1biqu.com
-$object,script,subdocument,3p,websocket,xhr,domain=2kans.net
+$object,script,subdocument,3p,websocket,xhr,domain=2kans.org
 $object,script,subdocument,3p,websocket,xhr,domain=1pwx.com
 $object,script,subdocument,3p,websocket,xhr,domain=1qxs.com
 $object,script,subdocument,3p,websocket,xhr,domain=23hh.com
@@ -4569,7 +4568,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\/\w{8}\/\w{10}\./$script,~3p,domain=147xiaoshuo.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=17k.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=1biqu.com
-/\/\w{8}\/\w{10}\./$script,~3p,domain=2kans.net
 /\/\w{8}\/\w{10}\./$script,~3p,domain=1pwx.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=23hh.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=23qb.com
@@ -30261,6 +30259,7 @@ zzzyk.com###Tinfo
 ||2d4f.com/love/
 ||2fzb.com/config/adv.js
 ||2kandy.com/js/123/
+||2kans.*/biquge_m/js/tools.js
 ||2txt.cc:8862^
 ||2ujj.com/js/bo.js
 ||2yjw.com/statics/js/jquery.min.
@@ -38319,6 +38318,7 @@ zzzyk.com###Tinfo
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
 ||yaojingweiba.com/inc/
+||yaokanwx.com/tongji/
 ||yaolan.com/wenku_debris/time_debris/images/mary
 ||yaolanimage.cn/assets/ask/js/ask_video_popup.js
 ||yaolanimage.cn/cms/image/960-90

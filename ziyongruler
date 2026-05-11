@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-05-09T23:19:28.118Z
+! Last modified: 2026-05-10T23:23:29.133Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -311,7 +311,7 @@ $object,script,subdocument,3p,websocket,xhr,domain=147xiaoshuo.com
 $object,script,subdocument,3p,websocket,xhr,domain=156zw.com
 $object,script,subdocument,3p,websocket,xhr,domain=17k.com
 $object,script,subdocument,3p,websocket,xhr,domain=1biqu.com
-$object,script,subdocument,3p,websocket,xhr,domain=2kans.net
+$object,script,subdocument,3p,websocket,xhr,domain=2kans.org
 $object,script,subdocument,3p,websocket,xhr,domain=1pwx.com
 $object,script,subdocument,3p,websocket,xhr,domain=1qxs.com
 $object,script,subdocument,3p,websocket,xhr,domain=23hh.com
@@ -3734,7 +3734,6 @@ $websocket,domain=cechi8.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=147xiaoshuo.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=17k.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=1biqu.com
-/\/\w{8}\/\w{10}\./$script,~3p,domain=2kans.net
 /\/\w{8}\/\w{10}\./$script,~3p,domain=1pwx.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=23hh.com
 /\/\w{8}\/\w{10}\./$script,~3p,domain=23qb.com
