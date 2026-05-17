@@ -1556,7 +1556,6 @@ $websocket,domain=cechi8.com
 .gov/stat?
 .gr/ads/
 .hgo0*uyi.com/$script,xhr,3p
-.hh0*aoik.com/$script,xhr,3p
 .hk/ads/
 .homad.$domain=~homad.eu
 .hr/ads.
@@ -1679,7 +1678,6 @@ $websocket,domain=cechi8.com
 .nz/ads/
 .oasfile.
 .oastagging.
-.okp*ai.com/$script,xhr,3p
 .online/ads/
 .openad.$domain=~openad.lv
 .openx.$domain=~openx.com
@@ -1730,7 +1728,6 @@ $websocket,domain=cechi8.com
 .pt/n.gif?
 .pw/ads/
 .qpqp0*oki.com/$script,xhr,3p
-.qqo*llo.com/$script,xhr,3p
 .qsko0*mas.com/$script,xhr,3p
 .refit.ads.
 .refreshAds.
@@ -6339,7 +6336,6 @@ $websocket,domain=cechi8.com
 /annonser/*
 /announce/adv/*
 /anprebid/*
-/anti-adblock/*$~stylesheet
 /anti_ab.
 /antiadblock.
 /antiblock_script/*

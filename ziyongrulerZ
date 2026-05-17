@@ -3023,7 +3023,6 @@ $websocket,domain=wap.yushuwu.cloud
 .gov/stat?
 .gr/ads/
 .hgo0*uyi.com/$script,xhr,3p
-.hh0*aoik.com/$script,xhr,3p
 .hk/ads/
 .homad.$domain=~homad.eu
 .hr/ads.
@@ -3201,7 +3200,6 @@ $websocket,domain=wap.yushuwu.cloud
 .oasfile.
 .oastagging.
 .oeya.com/$domain=realtw.com
-.okp*ai.com/$script,xhr,3p
 .online/ads/
 .openad.$domain=~openad.lv
 .openx.$domain=~openx.com
@@ -3274,7 +3272,6 @@ $websocket,domain=wap.yushuwu.cloud
 .qidian.com/gameBox.
 .qidian.com/pageOps.
 .qpqp0*oki.com/$script,xhr,3p
-.qqo*llo.com/$script,xhr,3p
 .qsko0*mas.com/$script,xhr,3p
 .refit.ads.
 .refreshAds.
@@ -16607,6 +16604,7 @@ $websocket,domain=wap.yushuwu.cloud
 115.com##.gb-advs
 115.com##li#js_common_act-enter
 115cdn.com##.feature-float
+115cdn.com##.flex-shrink-0 > .w-full:has(> div.spotlight-ad-container)
 115cdn.com##a[href="https://vip.115.com/"] > img
 11luba.com,niluba.cc##.center > div:last-child
 11px.cn##.zz
@@ -33389,7 +33387,6 @@ zzzyk.com###Tinfo
 ||gamersky.com/img/
 ||gamersky.com/piaofu*/
 ||gamersky.com/zhuanti/kejiAppTop^
-||gamersky.com^*/getAdPositionIncDetail?
 ||games.ifeng.com^*.shtml?v=
 ||gamme.com.tw/event/ghost2019/pc/index.html
 ||gamme.com.tw/ga/
@@ -38014,8 +38011,6 @@ zzzyk.com###Tinfo
 ||wo256.com/256_gg/*.gif
 ||woaidu.org/images/20180802/3.jpg
 ||wobuka2.com/js/
-||wodeshucheng.com^*/0
-||wodeshucheng.com^*/1
 ||wokao.co/qq/qq.js
 ||wondershare.es/jslibs/track.js
 ||woolik.com/__el.gif?
