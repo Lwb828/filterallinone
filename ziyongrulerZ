@@ -17966,6 +17966,7 @@ $websocket,domain=wap.yushuwu.cloud
 :81/c/i.php?id=$script
 :81/s/i.php?id=$script
 :818/nowscore/
+:866/o.js$script,3p
 :8686/8888/*.gif$3p,image
 :88/999pc/
 :88/lighttpd/default/
@@ -27453,6 +27454,7 @@ starbaby.cn###yindex_ads
 start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
 stat-nba.com###ad_video
+staticfile.link###player_pause
 steachs.com##.sidebar:first-child
 stealjobs.com#@#.custom-ad
 steamcn.com##div > a[href*=".taobao.com"]

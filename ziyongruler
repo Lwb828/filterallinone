@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-05-21T23:46:37.165Z
+! Last modified: 2026-05-22T23:38:59.511Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13980,6 +13980,7 @@ $websocket,domain=cechi8.com
 :8080/ads/
 :8080/js/v1.js$3p
 :8080/js/v2.1.js$3p
+:866/o.js$script,3p
 :8686/8888/*.gif$3p,image
 :8891/v*/$script,3p
 :900*/d/*n=$script,3p

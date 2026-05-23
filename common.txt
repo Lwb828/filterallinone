@@ -13022,6 +13022,7 @@ $websocket,domain=cechi8.com
 :8080/ads/
 :8080/js/v1.js$3p
 :8080/js/v2.1.js$3p
+:866/o.js$script,3p
 :8686/8888/*.gif$3p,image
 :8891/v*/$script,3p
 :900*/d/*n=$script,3p
