@@ -13028,6 +13028,8 @@ $websocket,domain=cechi8.com
 :900*/d/*n=$script,3p
 :900*/d/*t=$script,3p
 :900*/sc/*n=$script,3p
+:9875/vh2/
+:9875/vj2/
 ;1x1inv=
 ;ad_meta=
 ;adsense_
@@ -18113,6 +18115,8 @@ zznews.cn##.ad:not([style])
 ||fecdn1.zhaopin.cn/m/next/zpd/zpdJobPlanBanner*.js
 ||feedback.migu.cn/feedback/api/*/app/states^
 ||feedcat.net/button/
+||feijisu*.com/js/huimi-
+||feijisu5.com/js/huimi-
 ||feiszw.com/style/t.js
 ||feiszw.com/style/w.js
 ||feiwan.net/zqcom_style/ad/
@@ -20220,6 +20224,7 @@ zznews.cn##.ad:not([style])
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
 ||zhuna.cn/static/knowledge_pc/img/bussness
+||zhuys.com/js/ysmm.
 ||zi-han.net/theme/hplus/js/plugins/layer/
 ||ziffprod.com^*/zdcse.min.js?referrer=
 ||zijieapi.com/get_domains^

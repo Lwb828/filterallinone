@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-05-23T23:34:57.551Z
+! Last modified: 2026-05-24T23:38:37.433Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -13986,6 +13986,8 @@ $websocket,domain=cechi8.com
 :900*/d/*n=$script,3p
 :900*/d/*t=$script,3p
 :900*/sc/*n=$script,3p
+:9875/vh2/
+:9875/vj2/
 ;1x1inv=
 ;ad_meta=
 ;adsense_
@@ -19303,6 +19305,8 @@ zznews.cn##.ad:not([style])
 ||feedback.migu.cn/feedback/api/*/app/states^
 ||feedcat.net/button/
 ||feeds.sina.cn/api/*/tianyi^$replace=/(\"sax\"|saxs|mixers|mjs|\"img\"|\"vali\")/null/
+||feijisu*.com/js/huimi-
+||feijisu5.com/js/huimi-
 ||feiszw.com/style/t.js
 ||feiszw.com/style/w.js
 ||feiwan.net/zqcom_style/ad/
@@ -21641,6 +21645,7 @@ zznews.cn##.ad:not([style])
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
 ||zhuna.cn/static/knowledge_pc/img/bussness
+||zhuys.com/js/ysmm.
 ||zi-han.net/theme/hplus/js/plugins/layer/
 ||ziffprod.com^*/zdcse.min.js?referrer=
 ||zijieapi.com/get_domains^
