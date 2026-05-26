@@ -2909,12 +2909,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/v4/admin/flow_ads/settings
 .com/v4/youzan/kdt_info
 .com/vanity/?
-.com/vh1/$script,3p
-.com/vh2/$script,3p
-.com/vh5/$script,3p
 .com/video-ad-
-.com/vj1/$script,3p
-.com/vj2/$script,3p
 .com/vodad.js
 .com/vs.php?id=$script,third-party
 .com/vtrack|
@@ -3566,7 +3561,6 @@ $websocket,domain=wap.yushuwu.cloud
 /99vjj/*$3p
 /99vjj/*$third-party
 /9CCMSPC/images/*.gif
-/://666(7|8)[0-9]{2}.xyz\//$image,3p
 /:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,4}-[0-9]{2,3}-[0-9]\.html/$subdocument,third-party
 /:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,4}-[0-9]{2,3}\.js/$script,third-party
 /?&cs=*&pid=*&tid=
@@ -4429,9 +4423,6 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=zybang.com
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=zybus.com
 /\.(accountant|bid|click|club|com|cricket|date|download|faith|link|loan|lol|men|online|party|racing|review|science|site|space|stream|top|trade|webcam|website|win|xyz|com)\/(([0-9]{2,9})(\.|\/)(css|\?)?)$/$script,stylesheet,third-party,xmlhttprequest
-/\.(cc|com|top|xyz)\/i\/v$/$3p,xhr
-/\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,3p
-/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,3p
 /\.[a-z]+[\:\/]/$~image,3p,domain=bijiyd.com
 /\.[a-z]+[\:\/]/$~image,3p,domain=7zhens.com
 /\.[a-z]+[\:\/]/$~image,3p,domain=wamuku.cc
@@ -17975,14 +17966,11 @@ $websocket,domain=wap.yushuwu.cloud
 :8888/mb1/wap_
 :8888/zhu/pc_
 :8888/zhu/wap_
-:8891/v*/$script,3p
 :8898/ads_
 :900*/d/*n=$script,3p
 :900*/d/*t=$script,3p
 :900*/sc/*n=$script,3p
 :9001/code/
-:9875/vh2/
-:9875/vj2/
 :99/js/ads/
 ;1x1inv=
 ;ad_meta=
@@ -33129,6 +33117,7 @@ zzzyk.com###Tinfo
 ||exacttarget.com^*?eventType$image
 ||excelhome.net/js/banner-
 ||exitintel.com/log/$third-party
+||exmoo.com/js/ad-position/
 ||exoav.com/nb/nt.js
 ||exp-new.bdstatic.com/static/exp-pc/common-jquery/widget/popup*^
 ||expreview.com/baba/
@@ -33214,7 +33203,6 @@ zzzyk.com###Tinfo
 ||feedcat.net/button/
 ||feeds.sina.cn/api/*/tianyi^$replace=/(\"sax\"|saxs|mixers|mjs|\"img\"|\"vali\")/null/
 ||feesoon.com/js/cnzz_
-||feijisu*.com/js/huimi-
 ||feijisu5.com/js/huimi-
 ||feiniaoks.com/1.
 ||feiszw.com/style/t.js
@@ -38709,7 +38697,6 @@ zzzyk.com###Tinfo
 ||zhuna.cn/static/knowledge_pc/img/bussness
 ||zhushou.360.cn/script/plugin_tiper.js
 ||zhuwang.cc/api.php?op=ad_
-||zhuys.com/js/ysmm.
 ||zhzyw.com/js/InsertJS.js
 ||zi-han.net/theme/hplus/js/plugins/layer/
 ||ziffprod.com^*/zdcse.min.js?referrer=

@@ -1478,12 +1478,7 @@ $websocket,domain=cechi8.com
 .com/v2/admin/app_logs
 .com/v4/admin/flow_ads/settings
 .com/v4/youzan/kdt_info
-.com/vh1/$script,3p
-.com/vh2/$script,3p
-.com/vh5/$script,3p
 .com/video-ad-
-.com/vj1/$script,3p
-.com/vj2/$script,3p
 .com/vs.php?id=$script,third-party
 .com/www.gif?
 .com/x0.gif?
@@ -1930,7 +1925,6 @@ $websocket,domain=cechi8.com
 /934b2bc8de85e32ae7588f2eb955ee36.
 /99vjj/*$3p
 /9CCMSPC/images/*.gif
-/://666(7|8)[0-9]{2}.xyz\//$image,3p
 /:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,4}-[0-9]{2,3}-[0-9]\.html/$subdocument,third-party
 /:[0-9]{4,6}\/[a-z]{2}\/[a-z]-[0-9]{2,4}-[0-9]{2,3}\.js/$script,third-party
 /?&cs=*&pid=*&tid=
@@ -2685,9 +2679,6 @@ $websocket,domain=cechi8.com
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=zxtzx.com
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=zybang.com
 /\.(?:com|com\.cn|cn|cc|net|org|me|tv)\/[0-9a-z]{9,}\.js/$script,domain=zybus.com
-/\.(cc|com|top|xyz)\/i\/v$/$3p,xhr
-/\.(com|cn|top|xyz)\/(j|K)\/[0-9]{6}$/$script,3p
-/\.(cyou|ink)\/[a-z]{4}_[0-9]{5}_[a-z]{5}js\?/$script,3p
 /\.[a-z]+[\:\/]/$~image,3p,domain=bijiyd.com
 /\.[a-z]+[\:\/]/$~image,3p,domain=7zhens.com
 /\.[a-z]+[\:\/]/$~image,3p,domain=wamuku.cc
@@ -13024,12 +13015,9 @@ $websocket,domain=cechi8.com
 :8080/js/v2.1.js$3p
 :866/o.js$script,3p
 :8686/8888/*.gif$3p,image
-:8891/v*/$script,3p
 :900*/d/*n=$script,3p
 :900*/d/*t=$script,3p
 :900*/sc/*n=$script,3p
-:9875/vh2/
-:9875/vj2/
 ;1x1inv=
 ;ad_meta=
 ;adsense_
@@ -15646,6 +15634,7 @@ piaotian5.net##script + div[style="padding:15px;"]
 piaotianxs.com##script ~ a
 pic.imgdb.cn/item/*.gif
 pincong.rocks##+js(no-setInterval-if, Ad Block)
+ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> .closead)
 pinlue.com##.appOnly-container.feed-list-container
 pinlue.com##.article-container > .cat_title.section-hd
 pixabay.com##.carbon-ad
@@ -18115,7 +18104,6 @@ zznews.cn##.ad:not([style])
 ||fecdn1.zhaopin.cn/m/next/zpd/zpdJobPlanBanner*.js
 ||feedback.migu.cn/feedback/api/*/app/states^
 ||feedcat.net/button/
-||feijisu*.com/js/huimi-
 ||feijisu5.com/js/huimi-
 ||feiszw.com/style/t.js
 ||feiszw.com/style/w.js
@@ -20224,7 +20212,6 @@ zznews.cn##.ad:not([style])
 ||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
 ||zhulong.com/poster/get?positions_name=ZY_SP_300
 ||zhuna.cn/static/knowledge_pc/img/bussness
-||zhuys.com/js/ysmm.
 ||zi-han.net/theme/hplus/js/plugins/layer/
 ||ziffprod.com^*/zdcse.min.js?referrer=
 ||zijieapi.com/get_domains^
