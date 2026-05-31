@@ -12807,6 +12807,7 @@ $websocket,domain=cechi8.com
 58b.tv,8fun.tv#?#.datal.clear:has(> table div[id^="revive_zoneid_"])
 59.111.21.13:53
 5dm.app#@#.tm-share-this
+5dm.link##div[id^="player_p"]
 5dm.tv#@#.tm-share-this
 6090ba.com##.vdgd + a
 6090ba.com,717dyw.com,duodada.com##[ontouchstart]
@@ -17243,6 +17244,7 @@ zznews.cn##.ad:not([style])
 ||591.com.tw/action/stat/
 ||5atxt.com/js/*_
 ||5atxt.com/js/jhhe.
+||5dm.link/htm$image
 ||5dm.tv/html/5dm.jpg
 ||5dm.tv/html/5dmm.jpg
 ||5iwanyouxi.com/Runtime/Js/
