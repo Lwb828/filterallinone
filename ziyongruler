@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-06-03T00:15:57.433Z
+! Last modified: 2026-06-04T00:14:23.544Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -15400,8 +15400,7 @@ bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card_
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#@#.follow-wrapper
 bilibili.to###yytf
-bilinovel.com##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
-bilinovel.com##+js(set-constant, checkAndHandleAdBlock, undefined)
+bilinovel.com##+js(no-setTimeout-if, offsetHeig\'+\'ht\'])
 bimiacg4.net,bimiacg5.net,dodoge.me##.ssr1
 bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
 bingfeng.tw###ypaad:style(height: 3px!important;)
@@ -15963,7 +15962,9 @@ huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos, noopFunc)
 huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos_Simple, noopFunc)
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
 huaren.live,umbooks.com##+js(no-window-open-if)
+huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
+huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
 huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
 huoqwk.com,wap.biqugewx.info##+js(no-setTimeout-if, addEventListener("touchstart")
 hurigirls99.xyz###rightd

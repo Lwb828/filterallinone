@@ -21427,8 +21427,7 @@ bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card_
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.com#@#.follow-wrapper
 bilibili.to###yytf
-bilinovel.com##+js(abort-current-script, document.createElement, pagead2.googlesyndication.com)
-bilinovel.com##+js(set-constant, checkAndHandleAdBlock, undefined)
+bilinovel.com##+js(no-setTimeout-if, offsetHeig\'+\'ht\'])
 bimiacg.net##.tuiguang
 bimiacg4.net,bimiacg5.net,dodoge.me##.ssr1
 bing.com###b_results > li:has(.b_adProvider)
@@ -27593,6 +27592,8 @@ tbtdg.com###adblockWarning
 tbtdg.com##.reveal-modal-bg
 tbtdg.com##.s11text
 tbxt.com###headad2
+tcptest.cn##div.fixed.hidden
+tcptest.cn##div.min-w-0 > .relative
 teachinghand.com##.actions__wrapper
 tech.ifeng.com##body > div[style^="width:"][style*="margin: 0px auto; transition:"][style*="position: fixed; z-index:"]
 tech.qq.com##.kjad2
@@ -38789,6 +38790,7 @@ zzzyk.com###Tinfo
 ||zt.chuanke.com/?mod=
 ||zt5.com/statics/img/
 ||ztjal.info/wp-content/plugins/kill-adblock/
+||zudns.cn/uploads/*.gif$image,domain=tcptest.cn
 ||zuiacg.com/images/client/
 ||zuidaima.com/images/1/201606/20160616135714978.
 ||zuixingkong.com/gao/
