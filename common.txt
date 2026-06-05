@@ -14987,10 +14987,8 @@ huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos, noopFunc)
 huanqiu.com##+js(set-constant, AD_SURVEY_Add_AdPos_Simple, noopFunc)
 huaren.live,huavod.com##+js(no-setTimeout-if, bait.offsetHeight===0)
 huaren.live,umbooks.com##+js(no-window-open-if)
-huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
-huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
-huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
-huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##+js(addEventListener-defuser, DOMContentLoaded, showModal)
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live##+js(set-constant, ConFig.ad_duration_ms, 0)
 huoqwk.com,wap.biqugewx.info##+js(no-setTimeout-if, addEventListener("touchstart")
 hurigirls99.xyz###rightd
 hurigirls99.xyz###undertd
@@ -18789,6 +18787,7 @@ zznews.cn##.ad:not([style])
 ||lotpc.com/templets/default/js/lotpctb
 ||love201810.com/Runtime/js/
 ||ltassrv.com/track/
+||ltd.ua/zz
 ||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||ltsws.qq.com/*.ts.m3u8
 ||luanren.com/images/*.swf
@@ -19473,6 +19472,7 @@ zznews.cn##.ad:not([style])
 ||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.net
 ||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.com
 ||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.top
+||static.okokserver.com/uploads/lesi/$xhr,redirect=noop.txt,domain=huavod.cc
 ||static.tianyaui.com^*/stat_20080313.js
 ||static.ws.126.net/*/frontend/libs/backflow-slider/latest/backflow-slider.min.js^
 ||static.ws.126.net/*/wap/f2e/isomorphism_index/9.*.js^
@@ -20943,7 +20943,6 @@ tieba.baidu.com##.father-cut-recommend-normal-box
 tieba.baidu.com##.feed-cut
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.img-open-app
-tieba.baidu.com##.load-more.wake-app
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.only-lz
 tieba.baidu.com##.open-app-guide
