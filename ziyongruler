@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-06-04T23:39:09.932Z
+! Last modified: 2026-06-05T23:43:27.009Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -16484,6 +16484,7 @@ myptt.cc##p[style="padding:0;margin: 5px 0;color:#ff0000;"] > a[href][target="_b
 mysteel.com##body:style(background-image: none !important;)
 mzyz.com###idTransformView2
 n3ro.live##.card > .row
+nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##+js(abort-on-property-write, __PROXY_META)
 nanai.tw,foodieteller.com,candylife.tw,uptogo.com.tw,pokemonhubs.com,free.com.tw,daybuy.tw##+js(abort-on-property-write, __ad_unblock_id_obfuscation)
 nanfengyl.com,ziyuanba.com##.top-ad-txt
 nb.zol.com.cn##+js(set-cookie, getIsToJd, 1)
@@ -20017,7 +20018,6 @@ zznews.cn##.ad:not([style])
 ||lotpc.com/templets/default/js/lotpctb
 ||love201810.com/Runtime/js/
 ||ltassrv.com/track/
-||ltd.ua/zz
 ||lts*.qq.com^*.ts?index=$media,redirect=noop-0.1s.mp3,domain=qq.com
 ||ltsws.qq.com/*.ts.m3u8
 ||luanren.com/images/*.swf
