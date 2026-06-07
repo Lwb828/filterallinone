@@ -4,7 +4,7 @@
 ! Version: 1.0.0.0
 ! Homepage: https://example.org/
 ! License: GPLv3
-! Last modified: 2026-06-05T23:43:27.009Z
+! Last modified: 2026-06-06T23:38:29.209Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -19903,6 +19903,7 @@ zznews.cn##.ad:not([style])
 ||kindlepush.com/resources/images/main/AD.png
 ||kingkongapp.com^*/web/adv/list?
 ||kingsnug.cn/Uploads/vod/2019-05-25/5ce964f0c66e0.jpg
+||kiwari.com^*/impressions.asp?
 ||kiwsy.co/hotsearch_box.php
 ||kjp.cupid.iqiyi.com/mixer^
 ||kkeji.com/img/*/300250
